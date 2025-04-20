@@ -12,11 +12,13 @@ import '../styles/index.css'
 import NavBar from './components/Navbar';
 import JumboTron from './components/Jumbotron';
 import Cards from './components/Cards';
+import Footer from './Footer';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <NavBar />
     <JumboTron />
     <Cards />
+    <Footer />
   </React.StrictMode>,
 )
